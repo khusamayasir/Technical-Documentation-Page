@@ -1,3 +1,6 @@
 # Technical-Documentation-Page
 
-In-Progress..
+
+Preview: https://fcc-techinal-documentation-page-project.netlify.app/
+
+toDo this challenge/project go: https://freecodecamp.org
