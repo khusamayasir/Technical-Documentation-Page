@@ -17,6 +17,7 @@
       <li><a class="nav-link" href="#Variables">Variables</a></li>
       <li><a class="nav-link" href="#Loops">Loops</a></li>
       <li><a class="nav-link" href="#Decision_Making">Decision Making</a></li>
+      <li><a class="nav-link" href="#Operators">Operators</a></li>
       <li><a class="nav-link" href="#Reference">Reference</a></li>
     </ul>
   </nav>
@@ -413,6 +414,99 @@
         </ul>
       </section>
 
+      <section class="main-section" id="Operators">
+        <header>Operators</header>
+        <p>
+          Operators are the foundation of any programming language. We can define operators as symbols that help us to perform specific mathematical and logical computations on operands. In other words, we can say that an operator operates the operands. For example, ‘+’ is an operator used for addition, as shown below:  
+          c = a + b;
+          Here, ‘+’ is the operator known as the addition operator and ‘a’ and ‘b’ are operands. The addition operator tells the compiler to add both of the operands ‘a’ and ‘b’. 
+          The functionality of the C/C++ programming language is incomplete without the use of operators.
+          C/C++ has many built-in operators and can be classified into 6 types.
+          3 Main types are:
+          <ol>
+            <li>
+              Arithmetic Operators
+            </li>
+            <li>
+              Relational Operators
+            </li>
+            <li>
+              Logical Operators
+            </li>
+          </ol>
+        </p>
+
+        <b>
+          Operators in C++ are: 
+        </b>
+
+        <ol>
+          <li>
+            <b>
+            Arithmetic Operators:
+            </b>  
+            <p>
+            These operators are used to perform arithmetic/mathematical operations on operands. Examples: (+, -, *, /, %,++,–). Arithmetic operators are of two types: 
+            </p>
+            <ol class="l_a">
+              <li>
+                <b>
+                  Operators
+                </b>
+                <p>
+                  Operators that operate or work with a single operand are unary operators. For example: Increment(++) and Decrement(–) Operators
+                </p>
+              <code>
+                int val = 5;
+                ++val;  // 6
+              </code>
+              </li> 
+              <li>
+                <b>
+                  Binary Operators:
+                </b>
+                <p>
+                  Operators that operate or work with two operands are binary operators. For example: Addition(+), Subtraction(-), multiplication(*), Division(/) operators
+                </p>
+              </li>
+              <code>
+                int a = 7;
+                int b = 2;
+                cout << a+b; //9
+              </code>
+            </ol>
+          </li>
+          
+          <li>
+          <b>
+            Relational Operators:
+          </b>
+          <p>
+            These are used for the comparison of the values of two operands. For example, checking if one operand is equal to the other operand or not, whether an operand is greater than the other operand or not, etc. Some of the relational operators are (==, >= , <= )(See this article for more reference).
+          </p>
+          <code>
+            int a = 3;
+            int b = 5;
+            a < b;
+            // operator to check if a is smaller than b
+          </code>
+          </li>
+          
+          <li>
+            <b>
+              Logical Operators:
+            </b>
+            <p>
+              Logical Operators are used to combine two or more conditions/constraints or to complement the evaluation of the original condition in consideration. The result of the operation of a logical operator is a Boolean value either true or false. 
+              For example, the logical AND represented as ‘&&’ operator in C or C++ returns true when both the conditions under consideration are satisfied. Otherwise, it returns false. Therefore, a && b returns true when both a and b are true (i.e. non-zero)(See this article for more reference).
+            </p>
+            <code>
+              (4 != 5) && (4 < 5);     // true
+            </code>
+          </li>
+        </ol>
+      </section>
+
       <section class="main-section" id="Reference">
         <header>Reference</header>
         <article>
@@ -427,12 +521,7 @@
             </li>
           </ul>
         </article>
-      </section>
+      </section>  
     </main>
 </body>
 </html>
-
-
-
-    
-    
