@@ -223,7 +223,6 @@
                   <code>
                   for(int i = 0; i < n; i++)
                   {
-                
                   }
                 </code>
                 <p>
@@ -233,16 +232,95 @@
                   <b>
                     Initialization Expression:
                   </b>
-                  In this expression, we have to initialize the loop counter to some value. for example: int i=1; Test Expression: In this
-                  expression, we have to test the condition. If the condition evaluates to true then we will execute the body of the loop
-                  and go to update expression otherwise we will exit from the for a loop. For example: i<= 10; Update Expression: After
-                    executing the loop body this expression increments/decrements the loop variable by some value. for example: i++;
-                    Equivalent Flow Diagram for loop
+                  <p>
+                    In this expression, we have to initialize the loop counter to some value. for example: int i=1;
+                  </p> 
+                  <b>
+                    Test Expression: 
+                  </b>
+                  <p>
+                    In this expression, we have to test the condition. If the condition evaluates to true then we will execute the body of the loop
+                  and go to update expression otherwise we will exit from the for a loop. For example: i<= 10; 
+                  </p>
+                  <b>
+                    Update Expression:
+                  </b>
+                  <p>
+                    After executing the loop body this expression increments/decrements the loop variable by some value. for example: i++; Equivalent Flow Diagram for loop
+                  </p>
+                   
                 </p>
               </li>
+
+              <li>
+                <b>
+                  While Loop
+                </b>
+                <p>
+                  – While studying for loop we have seen that the number of iterations is known beforehand, i.e. the number of times
+                  the loop body is needed to be executed is known to us. while loops are used in situations where we do not know the
+                  exact number of iterations of the loop beforehand. The loop execution is terminated on the basis of the test
+                  conditions.
+                </p>
+                <p>
+                  <b>
+                    Syntax:
+                  </b>
+                  We have already stated that a loop mainly consists of three statements – initialization expression, test expression,
+                  and update expression. The syntax of the three loops – For, while, and do while mainly differs in the placement of
+                  these three statements.
+                </p>
+                <code>
+                  initialization expression;
+                  while (test_expression)
+                  {
+                     cout << "Hello World\n";
+                   
+                    update_expression;
+                  }
+                </code>
+                Example:
+                <code>
+                  while (i < 6)
+                  {
+                      cout << "Hello World\n";
+               
+                      // update expression
+                      i++;
+                  }
+                </code>
+              </li>
+
+              <li>
+                <b>
+                  do-while loop
+                </b>
+                <p>
+                  – In do-while loops also the loop execution is terminated on the basis of test conditions. The main difference between a do-while loop and the while loop is in the do-while loop the condition is tested at the end of the loop body, i.e do-while loop is exit controlled whereas the other two loops are entry controlled loops. 
+                </p>
+                <p>
+                  <b>
+                    Note:
+                  </b>
+                  In a do-while loop, the loop body will execute at least once irrespective of the test condition.
+                </p>
+                <b>
+                  Syntax:
+                </b>
+                <code>
+                  initialization expression;
+                  do
+                  {
+                     // statements
+                  
+                     update_expression;
+                  } while (test_expression);
+                </code>
+              </li>
+
             </ol>
-        </p>
-      </section>
+          </p>
+        </section>
 
 
       <section class="main-section" id="Decision_Making">
