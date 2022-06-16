@@ -77,6 +77,10 @@ section li {
     margin: 15px 0px 0px 20px;
 }
 
+section ol.l_a {
+    list-style-type: lower-alpha;
+}
+
 code {
     display: block;
     text-align: left;
